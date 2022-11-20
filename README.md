@@ -1,8 +1,7 @@
-# This repo is Deprecated
+# This repo is Deprecated2022
 This repository is no longer active. Tests and examples may no longer work and will not be 
 kept up to date. If you continue to use this repo, you may be able to get tests to work with
-the target url http://inv.beaufortfairmont.com. The url for the invoice application in these examples
-(http://34.225.240.91/) will be end-of-lifed in Sept. 2022, use http://inv.beaufortfairmont.com instead.
+the target url http://inv.beaufortfairmont.com. 
 
 A new course on Test Automation University was published in Sept 2022. 
 
@@ -12,6 +11,21 @@ Please use the new repo: https://gitlab.com/bftft/robot-framework-testautomation
 # Copyright
 Copyright Beaufort Fairmont, LLC 2019. All rights reserved.
 
+### Set dev environment ###
+1. Use VS code as your IDE
+install extension
+https://marketplace.visualstudio.com/items?itemName=ms-python.python
+https://marketplace.visualstudio.com/items?itemName=robocorp.robocorp-code
+https://marketplace.visualstudio.com/items?itemName=robocorp.robotframework-lsp
+https://marketplace.visualstudio.com/items?itemName=almenon.arepl
+2. Create virutal environment using VS Code teerminal
+https://docs.python.org/3/library/venv.html
+3. Installl librarry by python install -r requirements.txt
+4. Downalod chrome driveer and copy it to python.exe folder
+https://chromedriver.storage.googleapis.com/index.html?path=108.0.5359.22/
+5. Get right chromedriver.ext version otherwise, you will get following error
+https://chromedriver.storage.googleapis.com/index.html?path=107.0.5304.62/
+Suspended due to logged failure: SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 108
 
 # Robot Framework Training Resources
 
@@ -70,3 +84,7 @@ Beaufort Fairmont appreciates your business! Find other courses, consulting, and
 8/31/20 - Data in the system will be cleaned out every Monday at 12:00 AM ET (midnight, eastcoast of US timezone).
 
 If it is not that time, make sure to scroll the invoices page for your invoice.
+
+
+
+
