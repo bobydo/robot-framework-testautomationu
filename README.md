@@ -28,7 +28,7 @@ Robot Framework data is defined in different sections, often also called tables,
 
 ### Different sections in data ###
 Sections	run as following squenceUsed for
-1. Variables	Defining variables that can be used elsewhere in the test data.
+1. Variables	Defining variables that can be used elsewhere in the test data. (inlineExample.robot or variablesSectionExample.robot)
 2. Settings has Suite Setup and Suite Setup will run first
 3. Keywords	Creating user keywords from existing lower-level keywords (could be resource files)
 4. Test Cases	Creating test cases from available keywords.
