@@ -3,13 +3,10 @@ This repository is no longer active. Tests and examples may no longer work and w
 kept up to date. If you continue to use this repo, you may be able to get tests to work with
 the target url http://inv.beaufortfairmont.com. 
 
-A new course on Test Automation University was published in Sept 2022. 
-
-Please use the new repo: https://gitlab.com/bftft/robot-framework-testautomationu-2022
-
-
 # Copyright
 Copyright Beaufort Fairmont, LLC 2019. All rights reserved.
+
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
 ### Set dev environment ###
 1. Use VS code as your IDE
@@ -26,6 +23,22 @@ https://chromedriver.storage.googleapis.com/index.html?path=108.0.5359.22/
 5. Get right chromedriver.ext version otherwise, you will get following error
 https://chromedriver.storage.googleapis.com/index.html?path=107.0.5304.62/
 Suspended due to logged failure: SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 108
+
+Robot Framework data is defined in different sections, often also called tables, listed below:
+
+### Different sections in data ###
+Sections	run as following squenceUsed for
+1. Variables	Defining variables that can be used elsewhere in the test data.
+2. Settings has Suite Setup and Suite Setup will run first
+3. Keywords	Creating user keywords from existing lower-level keywords (could be resource files)
+4. Test Cases	Creating test cases from available keywords.
+5. Suite Teardown  complete or get exception
+
+Tasks	Creating tasks using available keywords. Single file can only contain either tests or tasks.
+Comments	Additional comments or data. Ignored by Robot Framework.
+
+Data-driven style
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#data-driven-style
 
 # Robot Framework Training Resources
 
@@ -84,6 +97,9 @@ Beaufort Fairmont appreciates your business! Find other courses, consulting, and
 8/31/20 - Data in the system will be cleaned out every Monday at 12:00 AM ET (midnight, eastcoast of US timezone).
 
 If it is not that time, make sure to scroll the invoices page for your invoice.
+
+## Useful url ##
+https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
 
 
 

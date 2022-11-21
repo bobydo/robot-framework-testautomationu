@@ -3,12 +3,15 @@ Library  SeleniumLibrary
 Library  OperatingSystem
 Library  Collections
 
+#Category keywords to different resource files
 Resource    resources.robot
 Resource    invoice-details-page.robot
 Resource    navigation.robot
 Resource    system.robot
 Resource    data.robot
 
+#Every test will run Suite Setup at begining and Suite Teardown at end
+#Suite Setup  Run Keywords  will run keywords in order 
 Suite Setup  Run Keywords   Initialize Test Data    Configure Selenium   Navigate To Homepage
 Suite Teardown  Exit Selenium
 
